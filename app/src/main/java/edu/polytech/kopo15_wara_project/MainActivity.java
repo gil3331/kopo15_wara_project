@@ -21,9 +21,9 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         //getAppKeyHash();
         setContentView(R.layout.activity_main);
-        Button sign_up_button, next_button;
-        sign_up_button = (Button) findViewById(R.id.sign_up_button);
-        sign_up_button.setOnClickListener(new View.OnClickListener() {
+        Button member_button, non_member;
+        member_button = (Button) findViewById(R.id.Member_button);
+        member_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),
@@ -31,8 +31,8 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
-        next_button = (Button) findViewById(R.id.next_button);
-        next_button.setOnClickListener(new View.OnClickListener() {
+        non_member = (Button) findViewById(R.id.non_member);
+        non_member.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(),
