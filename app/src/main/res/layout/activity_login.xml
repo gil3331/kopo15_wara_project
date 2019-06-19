@@ -63,7 +63,7 @@
                 android:background="@drawable/text_box"
                 android:ems="10"
                 android:hint="비밀번호를 입력해주세요."
-                android:inputType="textPersonName"
+                android:inputType="textPassword"
                 android:paddingStart="10dp" />
         </LinearLayout>
 
