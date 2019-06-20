@@ -16,7 +16,7 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         Button login_button;
         setContentView(R.layout.activity_login);
-        login_button = (Button) findViewById(R.id.login_button);
+        login_button = findViewById(R.id.login_button);
         login_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

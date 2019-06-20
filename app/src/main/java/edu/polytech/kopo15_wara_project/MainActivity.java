@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
         //getAppKeyHash();
         setContentView(R.layout.activity_main);
         Button member_button, non_member;
-        member_button = (Button) findViewById(R.id.Member_button);
+        member_button = findViewById(R.id.Member_button);
         member_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
-        non_member = (Button) findViewById(R.id.non_member);
+        non_member = findViewById(R.id.non_member);
         non_member.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
